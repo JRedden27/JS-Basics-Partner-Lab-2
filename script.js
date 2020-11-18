@@ -12,12 +12,12 @@
 // }
 
 let num1 = prompt ("What Is The Radius");
-const pi =  3.14;
+const PI =  3.14;
 
 if (num1 < 0) {
     alert("Don't use a negative number!");
 } else {
-    let answer = (pi * Math.pow(num1, 2));
+    let answer = (PI * Math.pow(num1, 2));
     alert("Area: " + answer);
 }
 
@@ -27,8 +27,8 @@ if (num1 < 0) {
 // let num1 = prompt ("How Much do you weigh? in lbs");
 // let num2 = prompt ("How tall are you? in inches");
 // let num3 = (num2 / Math.pow(num1,2));
-// const conversionFactor = 703;
-// let bmi = (num3 * conversionFactor);
+// const CONVERSION_FACTOR = 703;
+// let bmi = (num3 * CONVERSION_FACTOR);
 // let range;
 
 // if (bmi >= 30) {
